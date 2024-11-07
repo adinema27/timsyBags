@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+.nav{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+}
+
+.nav-link.active {
+    color: rgb(87, 76, 76);
+    background-color: #a06d21; /* Blue background for active */
+    border-radius: 5px;
+  }
+
+  
+.nav h2{
+    margin: auto;
+    color: rgb(150, 107, 14);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.card{
+    background-color: rgb(197, 165, 96);
+    color: rgb(41, 38, 31);
+    border-radius: 10px;
+
+}
+.card:hover{
+    box-shadow: 5px 5px 5px 5px rgb(250, 204, 118) ;
+}
+
+.card img{
+    border-radius: 10px;
+    width: 30%;
+    height: 350px;
+}
+
+.nav h4{
+    margin: auto;
+    color: rgb(177, 150, 92);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.nav h4:hover{
+    color: rgb(102, 75, 41);
+}

@@ -1,0 +1,343 @@
+body{
+    background-color: black;
+}  
+.main .section1 .slide .carousel-inner .carousel-item img{ 
+    width: 85%;
+    height: 70vh;
+    /* border: 2px solid gray; */
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(233, 148, 68);
+    background-color: #462d08;
+    margin-top: 0.5%;
+}
+
+.main .img-div img{
+    width: 90%;
+    height: 35vh;
+    display: flex;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 30px;
+    
+    box-shadow: 5px 5px 10px 5px rgb(94, 77, 24);
+
+}
+.main .img-div img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    transition-delay: 0.8s;
+}
+
+/* Styling for the heading */
+.main h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 3%;
+    color: #fcc308;
+    font-family: 'Arial', sans-serif;
+}
+
+.main h1:hover {
+    color: #583405;
+    transition: color 0.5s ease-in-out;
+}
+
+/* Styling for card section */
+.main .card-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+/* Styling for cards */
+.main .card-section .card {
+    border: none;
+    transition: transform 0.4s, box-shadow 0.4s;
+    background-color: #be8824;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+
+.main .card-section .card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.main .card-section .card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.main .card-section .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.main .card-section .card-text {
+    font-size: 14px;
+    color: #f5e237;
+    margin-bottom: 15px;
+}
+
+/* Styling for buttons */
+.main .card-section .btn {
+    background-color: #4b3f1a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.main .card-section .btn:hover {
+    background-color: #806729;
+    color: #fff;
+}
+
+/* Hover effects for the cards */
+.main .card-section .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(238, 222, 4, 0.2);
+}
+
+.card img{
+    border-radius: 10px;
+    width: 30%;
+    height: 350px;
+}
+
+
+
+
+.navbar {
+    background-color: #e3f2fd; /* Light blue background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border-radius: 10px;
+    margin-top: 0.2%;
+  }
+
+  /* Style for the brand logo/text */
+  .navbar-brand h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #a06e24; /* Blue color for brand */
+    margin: 0;
+    padding: 0;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-brand:hover h2 {
+    color:#462d08; /* Darker blue on hover */
+  }
+
+  /* Style for the navigation links */
+  .nav-link {
+    color: #664517; /* Dark gray for links */
+    font-weight: 500;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+
+  .nav-link:hover {
+    color: #b1a04e; /* Blue on hover */
+    background-color: rgba(117, 108, 54, 0.1); /* Light blue background on hover */
+    border-radius: 5px; /* Rounded edges on hover */
+  }
+
+  /* Active link styling */
+  .nav-link.active {
+    color: white;
+    background-color: #a06d21; /* Blue background for active */
+    border-radius: 5px;
+  }
+
+  /* Style for dropdowns */
+  .dropdown-menu {
+    background-color: #f8f9fa; /* Light gray background for dropdown */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .dropdown-item {
+    color: #3f4034; /* Dark gray */
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  .dropdown-item:hover {
+    background-color: #6b572a;
+    color: white; /* White text on hover */
+  }
+
+
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2730%27 height=%2730%27 fill=%27%23007bff%27 viewBox=%270 0 16 16%27%3E%3Cpath fill-rule=%27evenodd%27 d=%27M0 2a2 2 0 012-2h12a2 2 0 012 2H0zm0 4h16v2H0V6zm0 6h16v2H0v-2z%27/%3E%3C/svg%3E'); /* Custom blue icon */
+  }
+
+
+  .footer {
+    background-color: rgb(17, 13, 13); /* Dark background */
+    padding: 90px ;
+    color: #553905;
+    margin-top: 400%;
+    
+}
+
+.footer h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer p, .footer a {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #cccccc;
+}
+
+.footer a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer .social-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer .text-center {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.main .card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main .card img {
+    border-bottom: 1px solid #ddd;
+    height: 200px;
+    object-fit: cover;
+}
+
+.main .card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.main .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #726666;
+}
+
+.main .card-text {
+    font-size: 1rem;
+    color: #e2dddd;
+}
+
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #d3d2d2;
+    --navbar-bg: #e3f2fd;
+    --navbar-text: #a06e24;
+    --navbar-hover: #462d08;
+    --card-bg: #be8824;
+    --card-text: #f5e237;
+    --card-title: #333333;
+    --btn-bg: #4b3f1a;
+    --btn-text: #ffffff;
+    --footer-bg: #110d0d;
+    --footer-text: #553905;
+}
+
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #eceaea;
+    --navbar-bg: #1e1e1e;
+    --navbar-text: #fcc308;
+    --navbar-hover: #e3f2fd;
+    --card-bg: #2c2c2c;
+    --card-text: #fcc308;
+    --card-title: #d6d5d2;
+    --btn-bg: #fcc308;
+    --btn-text: #121212;
+    --footer-bg: #1e1e1e;
+    --footer-text: #fcc308;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.navbar {
+    background-color: var(--navbar-bg);
+}
+
+.navbar-brand h2 {
+    color: var(--navbar-text);
+}
+
+.navbar-brand:hover h2 {
+    color: var(--navbar-hover);
+}
+
+.nav-link {
+    color: var(--navbar-text);
+}
+
+.nav-link:hover {
+    color: var(--navbar-hover);
+}
+
+.main h1 {
+    color: var(--navbar-text);
+}
+
+.main h1:hover {
+    color: var(--navbar-hover);
+}
+
+.main .card-section .card {
+    background-color: var(--card-bg);
+}
+
+.main .card-section .card-text {
+    color: var(--card-text);
+}
+
+.main .card-section .btn {
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+}
+
+
+
+
+#theme-toggle {
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#theme-toggle:hover {
+    background-color: var(--navbar-hover);
+}

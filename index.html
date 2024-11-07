@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <title>Timsy Bags Emporium</title>
+</head>
+<body>
+    <!-- this is the navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #000;">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><h2>Timsy Bags</h2></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./about.html">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Products
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./kids_section.html">Schools Bags</a></li>
+                          <li><a class="dropdown-item" href="./kids_section.html">Kids Bags</a></li>
+                          <li><a class="dropdown-item" href="./luggage.html">Luggage Bags</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./contact.html">Contact Us</a>
+                  </li>
+              </ul>
+          </div>
+          <!--  Button for Dark/Light Mode -->
+          <button class="btn btn-outline-light" id="theme-toggle">Light Mode</button>
+      </div>
+  </nav>
+      <!-- this is the main section after navbar -->
+      <main class="main">
+        <section class="section1">
+          <div class="slide"></div>
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"> <!-- Auto-slide and interval of 3000ms -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./b1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./b2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./b3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        
+        <div class="img-div">
+          <a href="./discount.html"><img src="./discount1.png" alt=""></a>
+        </div>
+
+        <h1>Our Products</h1>
+
+<section class="card-section">
+  <!-- Card 1 -->
+  <div class="card" style="width: 18rem;">
+    <a href="./kids_section.html"><img src="./cards/kids.png" class="card-img-top" alt="Kids Bag"></a>
+    <div class="card-body">
+      <h5 class="card-title">Kids Bag</h5>
+      <p class="card-text">Stylish and colorful bags perfect for school kids.</p>
+      <a href="./kids_section.html" class="btn btn-primary">Buy Now</a>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card" style="width: 18rem;">
+    <a href="./backpack.html"><img src="./cards/backpack.png" class="card-img-top" alt="Backpack"></a>
+    <div class="card-body">
+      <h5 class="card-title">Backpack</h5>
+      <p class="card-text">Durable backpacks ideal for travel and school.</p>
+      <a href="./backpack.html" class="btn btn-primary">Buy Now</a>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card" style="width: 18rem;">
+    <a href="./luggage.html"><img src="./cards/luggage.png" class="card-img-top" alt="Luggage Bag"></a>
+    <div class="card-body">
+      <h5 class="card-title">Luggage Bag</h5>
+      <p class="card-text">Spacious luggage bags for your next adventure.</p>
+      <a href="luggage.html" class="btn btn-primary">Buy Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- extra spacing -->
+<div style="width: 100%; height: 5vh; "></div>
+
+<!-- Footer -->
+<footer class="footer mt-auto py-4 text-white">
+  <div class="container">
+      <div class="row">
+          <!-- About Section -->
+          <div class="col-md-4">
+              <h5>About Us</h5>
+              <p>Timsy Bags Emporium offers a wide range of quality bags for all purposes. From school bags to luggage, we have it all!</p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-4">
+              <h5>Quick Links</h5>
+              <ul class="list-unstyled">
+                  <li><a href="./index.html" class="text-white">Home</a></li>
+                  <li><a href="#" class="text-white">Products</a></li>
+                  <li><a href="./contact.html" class="text-white">Contact Us</a></li>
+                  <li><a href="#" class="text-white">About Us</a></li>
+              </ul>
+          </div>
+
+          
+          <div class="col-md-4">
+              <h5>Contact Us</h5>
+              <p>Email: info@timsysbags.com</p>
+              <p>Phone: +91-6232524999</p>
+              <h5>Follow Us</h5>
+              <div>
+                  <a href="#"><img src="./social/facebook.webp" alt="Facebook" class="social-icon"></a>
+                  <a href="https://www.instagram.com/timsybags/"><img src="./social/Instagram_icon.png.webp" alt="Instagram" class="social-icon"></a>
+                  <a href="#"><img src="./social/twitter.png" alt="Twitter" class="social-icon"></a>
+              </div>
+          </div>
+      </div>
+
+      <div class="text-center mt-3">
+          <p>&copy; 2024 Timsy Bags Emporium. All Rights Reserved.</p>
+      </div>
+  </div>
+</footer>
+
+
+      </main>
+      <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

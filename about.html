@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./about.css">
+  <title>Timsy Bags Emporium</title>
+</head>
+
+<body>
+  <!-- this is the navbar -->
+  <nav class="navbar navbar-expand-lg " style="background-color: #000;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+        <h2>Timsy Bags</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./about.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./kids_section.html">Schools Bags</a></li>
+              <li><a class="dropdown-item" href="./kids_section.html">kids Bags</a></li>
+              <li><a class="dropdown-item" href="./luggage.html">Luggage Bags</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main">
+    <section class="section-text">
+      <div class="div-text">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quaerat culpa error id ratione non amet sequi
+          consectetur maiores architecto. Aliquid animi reiciendis praesentium at, molestias nesciunt natus. Saepe,
+          sapiente!</p>
+      </div>
+    </section>
+    <section class="section-img">
+      <img src="./section_img.jpg" alt="">
+    </section>
+
+
+  </main>
+  <div class="pro">
+    <h1>Company we deals with</h1>
+  </div>
+
+  <section class="section-brand">
+    <div class="slider">
+      <img src="./about img/American.png" alt="" class="image">
+      <img src="./about img/aristocrat.jpg" alt="" class="image">
+      <img src="./about img/safari.png" alt="" class="image">
+      <img src="./about img/VIP-logo-new.jpg" alt="" class="image">
+      <img src="./about img/priority.avif" alt="" class="image">
+      <img src="./about img/season.png" alt="" class="image">
+    </div>
+    <button class="slider-button left" onclick="scrollLeft()">&#10094;</button>
+    <button class="slider-button right" onclick="scrollRight()">&#10095;</button>
+  </section>
+
+
+
+  <header class="video-head">
+
+    <h1>A glimpes of our Shop</h1>
+
+  </header>
+
+  <section class="section-video">
+    <video autoplay loop muted controls width="600" class="video-element">
+      <source src="./about img/intro.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+
+  <footer class="footer mt-auto py-4 text-white">
+    <div class="container">
+        <div class="row">
+            <!-- About Section -->
+            <div class="col-md-4">
+                <h5>About Us</h5>
+                <p>Timsy Bags Emporium offers a wide range of quality bags for all purposes. From school bags to luggage, we have it all!</p>
+            </div>
+  
+            <!-- Quick Links -->
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="./index.html" class="text-white">Home</a></li>
+                    <li><a href="#" class="text-white">Products</a></li>
+                    <li><a href="./contact.html" class="text-white">Contact Us</a></li>
+                    <li><a href="#" class="text-white">About Us</a></li>
+                </ul>
+            </div>
+  
+            
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <p>Email: info@timsysbags.com</p>
+                <p>Phone: +91-6232524999</p>
+                <h5>Follow Us</h5>
+                <div>
+                    <a href="#"><img src="./social/facebook.webp" alt="Facebook" class="social-icon"></a>
+                    <a href="https://www.instagram.com/timsybags/"><img src="./social/Instagram_icon.png.webp" alt="Instagram" class="social-icon"></a>
+                    <a href="#"><img src="./social/twitter.png" alt="Twitter" class="social-icon"></a>
+                </div>
+            </div>
+        </div>
+  
+        <div class="text-center mt-3">
+            <p>&copy; 2024 Timsy Bags Emporium. All Rights Reserved.</p>
+        </div>
+    </div>
+  </footer>   
+  
+  <script>
+    const slider = document.querySelector('.slider');
+    const imageWidth = 350 + 40; // Image width + padding
+
+    function scrollLeft() {
+      slider.scrollBy({
+        left: -imageWidth,
+        behavior: 'smooth'
+      });
+    }
+
+    function scrollRight() {
+      slider.scrollBy({
+        left: imageWidth,
+        behavior: 'smooth'
+      });
+    }
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

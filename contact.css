@@ -1,0 +1,128 @@
+.navbar {
+    background-color: #e6edf1; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+    margin-top: 0.2%;
+  }
+
+  .navbar-brand h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #a06e24; 
+    margin: 0;
+    padding: 0;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-brand:hover h2 {
+    color:#462d08; 
+  }
+
+
+  .nav-link {
+    color: #664517; 
+    font-weight: 500;
+    padding: 0.75rem 1.5rem; 
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+
+  .nav-link:hover {
+    color: #b1a04e; 
+    background-color: rgba(117, 108, 54, 0.1); 
+    border-radius: 5px; 
+  }
+
+
+  .nav-link.active {
+    color: white;
+    background-color: #a06d21; 
+    border-radius: 5px;
+  }
+
+ 
+  .dropdown-menu {
+    background-color: #f8f9fa; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .dropdown-item {
+    color: #3f4034;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  .dropdown-item:hover {
+    background-color: #6b572a;
+    color: white; 
+  }
+
+ 
+ 
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2730%27 height=%2730%27 fill=%27%23007bff%27 viewBox=%270 0 16 16%27%3E%3Cpath fill-rule=%27evenodd%27 d=%27M0 2a2 2 0 012-2h12a2 2 0 012 2H0zm0 4h16v2H0V6zm0 6h16v2H0v-2z%27/%3E%3C/svg%3E'); 
+  }
+
+
+  body {
+    background-color: rgb(241, 239, 239);
+    font-family: 'Arial', sans-serif;
+    color: #0f0e0e;
+    margin: 0;
+    padding: 0;
+}
+
+.aside-menu {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.aside-menu li {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.aside-menu li:hover {
+  background-color: #664517;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button.submit-btn {
+  background-color: #664517;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.submit-btn:hover {
+  background-color: #423f29;
+}
+
+footer {
+  margin: 300px;
+  padding: 90px;
+  background-color: rgb(124, 85, 12);
+}
+
